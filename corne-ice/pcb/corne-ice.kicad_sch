@@ -1712,13 +1712,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "reset_r" (shape input) (at 69.85 138.43 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right))
-    (uuid 9fe6b0cc-bca4-47f2-b9cd-dc563c59a918)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 59.2881 138.43 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "reset" (shape input) (at 181.61 54.61 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid a055bae2-0359-4fdc-ab53-62646b860272)
@@ -1758,6 +1751,13 @@
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid bd2b33a2-b95b-4a5c-9c84-3389d4b04726)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 64.2229 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "reset_r" (shape input) (at 69.85 138.43 180) (fields_autoplaced)
+    (effects (font (size 1.1938 1.1938)) (justify right))
+    (uuid c319b93a-2cea-4adb-bcd9-93a5e6ba6269)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 61.5763 138.43 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1917,33 +1917,33 @@
     (property "Datasheet" "" (at 252.73 107.95 90)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid ab5e9a54-518a-4633-bdaf-ee4ec957c45b))
-    (pin "10" (uuid f28bfbb7-ca40-44d1-8204-ca6f347a447c))
-    (pin "11" (uuid 60442736-f929-4b62-9a80-43fb26f4df4d))
-    (pin "12" (uuid 1ee8a742-90ff-41f3-b9b0-48ccba20219c))
-    (pin "13" (uuid 55d79801-3be7-4f6d-9fb7-ca49eaf00714))
-    (pin "14" (uuid 56e9e22d-5b5e-4db2-8f36-7277ad194aa3))
-    (pin "15" (uuid 9b596e37-98f2-4f75-bf26-03085dfcc459))
-    (pin "16" (uuid fd8f195c-f6d2-4fb0-8339-ce1be9218b34))
-    (pin "17" (uuid d0c048d6-c346-4902-8c12-a519e616c011))
-    (pin "18" (uuid 79f697bf-e664-4ab1-8910-ea0d67df4d89))
-    (pin "19" (uuid 661e07d3-ef4e-419f-95af-312dc7f07fc6))
-    (pin "2" (uuid 6a328a96-f806-4374-86bd-a36bec9724c2))
-    (pin "20" (uuid 2c3cf7bc-2844-4a62-9a25-c85747cca5eb))
-    (pin "21" (uuid 64fbf48b-538a-4ff6-9cde-88cdbbe1a560))
-    (pin "22" (uuid d5a041ca-9fa5-47f7-a912-a4692bead0f5))
-    (pin "23" (uuid d009fcb7-25bb-4088-b513-1e7e1f7db5dc))
-    (pin "24" (uuid 398144b5-86eb-495d-bb6c-fbad7c3ed5cb))
-    (pin "3" (uuid cc5fbf6e-d80d-4155-a5c4-aead6b97a1e3))
-    (pin "31" (uuid 4f5e3f0e-84ab-45b0-ba21-c7065718cd76))
-    (pin "32" (uuid 668d1538-8008-464d-b6f7-73d5761c460c))
-    (pin "33" (uuid 68669682-f8ba-41f6-936a-4b9e0b5ede1f))
-    (pin "4" (uuid ecc94d6a-a16f-45aa-bed4-9041667da678))
-    (pin "5" (uuid bcd3e096-65a8-4fa4-a0a5-60af755f6b11))
-    (pin "6" (uuid 07f30e90-feb4-47c6-bd64-9fcf6cc48927))
-    (pin "7" (uuid 2976e063-a012-43c6-9a89-9cac3a78d75e))
-    (pin "8" (uuid b81739fd-4ad6-4c44-af2e-e4062cc389a6))
-    (pin "9" (uuid 72b971a2-6557-4c53-a33b-4a58d6abd217))
+    (pin "1" (uuid d8e8a631-4652-4b7d-983d-b4a28dab3506))
+    (pin "10" (uuid 5b11053c-4f4a-4c4e-90f5-144c3f401ee7))
+    (pin "11" (uuid 5f7c7736-205b-4393-a9fd-d01a0dd27d5f))
+    (pin "12" (uuid 5dfc1452-1d10-4a0a-9817-bc83db2a31c5))
+    (pin "13" (uuid 957857a4-7527-43f6-871c-7ca301c70041))
+    (pin "14" (uuid c9039d06-64ff-4275-b697-3f60944b0881))
+    (pin "15" (uuid d898595b-283b-424e-a9df-9a7374534f86))
+    (pin "16" (uuid 946f2015-243b-4337-b421-d8bb30d42495))
+    (pin "17" (uuid 14cb54fd-5c77-4a18-a703-6e4693e76727))
+    (pin "18" (uuid c3380cbd-394c-434c-b577-c7623bb4a908))
+    (pin "19" (uuid 4eb91d54-98eb-4c64-8c15-6c6bba637569))
+    (pin "2" (uuid 43496cde-955f-431e-8841-def6f41defc3))
+    (pin "20" (uuid 8cc1f784-40b7-408e-8ba2-f19e00ec4758))
+    (pin "21" (uuid eb85d73a-0767-4aef-ace6-29af2e5fa90b))
+    (pin "22" (uuid 38aec34a-b8dd-4dca-89b5-924bd9416d60))
+    (pin "23" (uuid 4d6d2df9-9b18-4603-8e52-e520db65bf69))
+    (pin "24" (uuid d76ec7a7-5f13-4389-a367-fa8c20efd5eb))
+    (pin "3" (uuid cf35823e-ab9b-4fec-8c32-63a52117267a))
+    (pin "31" (uuid f6fff318-039b-498a-9ebc-d632ca043568))
+    (pin "32" (uuid 2c21af23-e398-478d-ae4f-c54e81519bbf))
+    (pin "33" (uuid d7cf8839-8021-4959-947b-d3f5911efa17))
+    (pin "4" (uuid b7e45bf1-0c60-4866-b949-1cadede685ed))
+    (pin "5" (uuid 786f09a7-e76d-4257-9c29-b8aa6f04831d))
+    (pin "6" (uuid 7a76d0c3-6fd0-4b07-8e09-f5091cba37eb))
+    (pin "7" (uuid aaf7ac03-7783-4f50-beea-6be03dc57398))
+    (pin "8" (uuid 8b265880-14db-4b7c-a342-4ed28719ebd8))
+    (pin "9" (uuid 181c26dc-1a24-4fe0-9121-94271d76e210))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -1968,8 +1968,8 @@
     (property "Datasheet" "" (at 38.1 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 163e9ede-1d96-45ff-9163-45377ef28b71))
-    (pin "2" (uuid 89154695-4498-43a0-ba28-429ecada4aa9))
+    (pin "1" (uuid b702ea1b-8617-4f33-ae33-6489c410fca9))
+    (pin "2" (uuid 0981cebd-05b7-435f-b54c-8983612240da))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -1994,8 +1994,8 @@
     (property "Datasheet" "" (at 45.72 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53564975-7692-480e-aa07-59f9d8690d28))
-    (pin "2" (uuid 083996e9-414e-4197-be45-1004833f5212))
+    (pin "1" (uuid b0cfb561-0320-4e16-a600-e876408fa565))
+    (pin "2" (uuid 3be2029a-e213-49ff-a105-eacc6ef3ec3d))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2020,7 +2020,7 @@
     (property "Datasheet" "" (at 248.92 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec803756-5bd8-4305-b947-47883e5849ad))
+    (pin "1" (uuid 09e1e9c7-27e1-4a54-8d11-20ca7cf44621))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2045,7 +2045,7 @@
     (property "Datasheet" "" (at 248.92 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1aebb9d-ad62-4f74-b36a-66c68990bd71))
+    (pin "1" (uuid 953f163a-ee87-40a8-86f2-be8fa95a0452))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2070,7 +2070,7 @@
     (property "Datasheet" "" (at 203.2 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b274977-0d3e-488d-9e26-7c4457718e3f))
+    (pin "1" (uuid 45011fd6-9122-4d19-aac3-21b980d1c739))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2095,7 +2095,7 @@
     (property "Datasheet" "" (at 172.72 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf8b74c0-6930-4ebf-8591-b7cfa8f30fd6))
+    (pin "1" (uuid 0d0de8db-b62d-4306-9982-3e4d3a0ce7d6))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2120,7 +2120,7 @@
     (property "Datasheet" "" (at 182.88 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6891e5d6-f975-46ce-9611-fded25e7cb6e))
+    (pin "1" (uuid 74605926-bc28-4d9d-8ab1-b43c1852ffce))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2145,7 +2145,7 @@
     (property "Datasheet" "" (at 182.88 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b2004ab-2e7e-4543-ad43-83d1acc19a68))
+    (pin "1" (uuid 9a0a694b-6c06-41c2-9817-f048bef5de40))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2170,7 +2170,7 @@
     (property "Datasheet" "" (at 172.72 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d1b61ec-265b-4a74-9999-1f9fc1464368))
+    (pin "1" (uuid e653e89a-2d20-4284-b9a8-6ff2a5654387))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2195,8 +2195,8 @@
     (property "Datasheet" "" (at 189.23 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 1915df82-ffd5-46e6-a16f-ac7a0d237693))
-    (pin "2" (uuid 433ec1b1-207f-4212-bb1d-b89991e9e8a8))
+    (pin "1" (uuid 09d89f5a-8718-458f-9ddb-11d51b38d554))
+    (pin "2" (uuid 923a3895-1c89-497f-be45-ff19fe167db0))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2221,7 +2221,7 @@
     (property "Datasheet" "" (at 196.85 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 254582a8-f354-41ab-abb9-f29f1f3093dd))
+    (pin "1" (uuid fdbb5f16-0078-4a34-921b-097299923237))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2246,33 +2246,33 @@
     (property "Datasheet" "" (at 154.94 177.8 90)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid c746e620-2112-406e-9a1c-eefa568b53b3))
-    (pin "10" (uuid 5e344e62-3136-4b94-830a-b541b449531d))
-    (pin "11" (uuid cc428c5f-c99a-4122-82c7-0dd86e358d08))
-    (pin "12" (uuid 7898c6c7-a4e6-4e24-9c07-4a9570c4f8cb))
-    (pin "13" (uuid 4cb8ebdd-99ad-47af-9673-db5e1011d0f6))
-    (pin "14" (uuid 22d043fd-53a7-4184-855b-4941754a90ae))
-    (pin "15" (uuid 7367d31c-19c1-4df6-a88e-7ae0501277e4))
-    (pin "16" (uuid bc14b546-ee39-4fed-8f90-bbb43490dde7))
-    (pin "17" (uuid f83bf280-bb3f-4386-9ba1-829bed99e99c))
-    (pin "18" (uuid a4a1ad7a-f17e-408e-b581-ed2f96b0a153))
-    (pin "19" (uuid fc4c1a79-adf9-4473-ba8b-51eec1876a39))
-    (pin "2" (uuid 0a8849f3-f23d-4a22-ab33-cf0415bf9c00))
-    (pin "20" (uuid 5f9bc7f1-fa18-4d97-8e8e-f90c837c1c4d))
-    (pin "21" (uuid cc49c709-e646-428e-bbfa-669d1cd22ac3))
-    (pin "22" (uuid 2416c3dd-b87c-47de-933f-c7450ab98b49))
-    (pin "23" (uuid 978cce87-b663-4414-a7b2-ec4bface7539))
-    (pin "24" (uuid 19c00412-1648-44c3-a9cb-bc68509f544b))
-    (pin "3" (uuid ad1b8887-9c54-4201-87f9-77df30ffc02d))
-    (pin "31" (uuid ea508ed4-92e3-4699-b037-6511479706b1))
-    (pin "32" (uuid 4760da66-de22-47e0-9adb-6c39d1492f1e))
-    (pin "33" (uuid 1fb98d65-fc26-4da5-8290-42a1c8a7be8e))
-    (pin "4" (uuid 279ed627-aa95-4033-8f22-f0c8b2d5f30d))
-    (pin "5" (uuid 9de0693a-5901-49f0-ad07-330ed4f73ace))
-    (pin "6" (uuid e3f5c804-d190-49c4-94b9-997f75661f7e))
-    (pin "7" (uuid ecac6852-d1bd-4ce2-aae1-9effe4af10f2))
-    (pin "8" (uuid 1a580fdd-d533-4bb8-8bf2-75bdaf25ac63))
-    (pin "9" (uuid d0e3935f-8868-4c8f-8ca4-4983e3d56a0e))
+    (pin "1" (uuid 2749a94b-f26d-42a4-a1db-5ea4e2ffd42b))
+    (pin "10" (uuid 5d0824fd-e6e2-4c24-be27-646f913c05eb))
+    (pin "11" (uuid be1d8eac-da61-490f-a207-47ef1329edb5))
+    (pin "12" (uuid 13a06980-36e4-43f8-bb6c-0696147af900))
+    (pin "13" (uuid 131f5385-65b6-4c7c-9e8b-a685a5cd1515))
+    (pin "14" (uuid 595e1c20-49cc-4200-9707-7c2410e519c7))
+    (pin "15" (uuid e4201a8e-afe3-4caa-b9ce-3784747a020a))
+    (pin "16" (uuid 1a130f40-44d1-4ff2-9c7a-19fad88e27f6))
+    (pin "17" (uuid 174a5f05-61f9-498b-aaa0-d5796dad52c9))
+    (pin "18" (uuid 2d5071ce-cf40-42a7-a808-4308192a8118))
+    (pin "19" (uuid 6fdf3f96-1ba2-4aad-b9ed-46d516b0b54b))
+    (pin "2" (uuid 93f609b6-2920-42fd-80a0-a29de5d3f633))
+    (pin "20" (uuid 06f7cae9-9f1b-4770-bda7-2944903302a8))
+    (pin "21" (uuid 0b3e1cf1-6c1d-4b0a-a165-d4b5da260226))
+    (pin "22" (uuid 0a9f0acb-de1a-4704-a351-cbb2e1fbcf65))
+    (pin "23" (uuid 6a6438d0-96ab-4584-9672-e54ff8b9d48d))
+    (pin "24" (uuid 35c1be74-a34d-4a9f-a03d-2df1d80eed10))
+    (pin "3" (uuid 0b70c3e8-736f-4615-9e8d-c16de3febb73))
+    (pin "31" (uuid 7c4ed49d-6a53-44aa-a60a-70e5382366a8))
+    (pin "32" (uuid 174d9ada-b4c6-4a27-aad9-a17b6478391c))
+    (pin "33" (uuid 2393ab86-a2c6-4658-86bf-3a3c3bdafb25))
+    (pin "4" (uuid d84918f5-11c1-4af8-82c7-611ee8916b55))
+    (pin "5" (uuid f71140b4-e82e-41dc-ac43-c02d99356e05))
+    (pin "6" (uuid 75e22e5c-fc56-4c9f-b87f-0392c31984b6))
+    (pin "7" (uuid a29ed0f7-accd-4d09-ba29-2dea14d3f12d))
+    (pin "8" (uuid af9383e6-3ac6-4fc1-883b-00c1d5ecb742))
+    (pin "9" (uuid ded433f3-2ed4-4870-b577-30d81c0b02e2))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2297,8 +2297,8 @@
     (property "Datasheet" "" (at 187.96 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid d1534b74-2984-4883-8e6a-75fad3062ae2))
-    (pin "2" (uuid 9e0cf85e-a197-46f5-ad8b-d58196cccd94))
+    (pin "1" (uuid 32eb8bf4-12f7-48b1-b181-35eab53fa39b))
+    (pin "2" (uuid ceea01c8-fde8-4523-9c63-72309e040c60))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2323,8 +2323,8 @@
     (property "Datasheet" "" (at 195.58 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a46e5998-5383-4ad9-bcf6-7483b4e026ae))
-    (pin "2" (uuid 663ff032-9669-4885-8cd2-69b5491ccf36))
+    (pin "1" (uuid 6e8de245-0c19-414f-bef3-49d0e82301b4))
+    (pin "2" (uuid 92a3d40a-2ac4-4042-849d-6799140d97b6))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2349,8 +2349,8 @@
     (property "Datasheet" "" (at 205.74 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid df20da2d-9165-4223-b93a-da270a12f4e7))
-    (pin "2" (uuid b3798dfc-5f9c-496f-8522-013d3d04d462))
+    (pin "1" (uuid 344f9770-b10d-4056-ab7f-8cc1ad117cea))
+    (pin "2" (uuid 1f6eb47c-6c2e-4b5d-b4a7-3a965a230f7a))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2375,8 +2375,8 @@
     (property "Datasheet" "" (at 213.36 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d109f578-cfcd-461e-9b18-bf528fdd31ca))
-    (pin "2" (uuid bb9a15ad-eaf4-4295-a860-fec594eebf57))
+    (pin "1" (uuid 01bf5aa4-c6d5-4fe9-9289-63418bc96830))
+    (pin "2" (uuid 36129e2c-59c3-4251-8ceb-ec2929fc5f57))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2401,8 +2401,8 @@
     (property "Datasheet" "" (at 223.52 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid b479ede2-1c74-4628-b194-57b809152554))
-    (pin "2" (uuid 765ec81f-d090-48bb-b32f-4134d4aecdb9))
+    (pin "1" (uuid 19e17495-6089-4933-9b33-6f81b8912f33))
+    (pin "2" (uuid b4e25aa0-f89e-4635-9171-9bb5041e2f81))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2427,8 +2427,8 @@
     (property "Datasheet" "" (at 241.3 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 4875e699-a1e3-41b7-a840-ed67644d775f))
-    (pin "2" (uuid 1bce72b6-be13-4022-8cb0-d8566ca82293))
+    (pin "1" (uuid 28fbb0ba-a3cb-47f1-98bb-cf913b666f62))
+    (pin "2" (uuid fd11d4a9-509c-4d88-aeae-add568670e2c))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2453,8 +2453,8 @@
     (property "Datasheet" "" (at 259.08 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid f4c5b1b1-8e7c-4c56-ba19-da91727a6329))
-    (pin "2" (uuid cfaccfe4-e335-432e-803a-ccf2f28d025a))
+    (pin "1" (uuid 49f07262-8d5e-44da-83e2-65f1a7028743))
+    (pin "2" (uuid 5f38eece-294a-4caa-b4b8-4fa1c9a776d8))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2479,8 +2479,8 @@
     (property "Datasheet" "" (at 231.14 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a94d58ad-612c-4481-b5c6-c98109f7acaa))
-    (pin "2" (uuid e38de623-4c46-4b91-a336-094ec3b42450))
+    (pin "1" (uuid 8d6a8bba-0321-479b-9f08-e96ac4594123))
+    (pin "2" (uuid 8102a4ad-96a7-4234-b95e-38e4e4c28edf))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2505,8 +2505,8 @@
     (property "Datasheet" "" (at 248.92 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 37c7bcdb-95cc-40ee-839d-2e7bbde0ac05))
-    (pin "2" (uuid a860ecb4-039d-45e1-bb95-992906a22e4a))
+    (pin "1" (uuid 0e5e9ed3-3ca1-4eb6-b571-30dc05c7ec2e))
+    (pin "2" (uuid deb74f9c-7808-4b00-8ee2-fadcfad6ac46))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2531,8 +2531,8 @@
     (property "Datasheet" "" (at 266.7 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 90e0b807-bf08-4478-9b8e-9a90895ce604))
-    (pin "2" (uuid 5d0c20f5-8b8e-4827-894c-071c8742933a))
+    (pin "1" (uuid d99535cd-6f2f-4b96-a762-7bb7c81f1e61))
+    (pin "2" (uuid 7dcf569e-bf41-4346-a489-c058ee945345))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2557,8 +2557,8 @@
     (property "Datasheet" "" (at 170.18 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid bbbdd08b-c1e7-427a-9cbf-3a2ecd6b79e3))
-    (pin "2" (uuid fcd3b5d8-074b-4ad3-b63b-a658f27640cb))
+    (pin "1" (uuid 481f7593-980c-48ae-95ee-ef26334fe000))
+    (pin "2" (uuid d3f7548a-e3a8-4544-adce-1bab067716a3))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2583,8 +2583,8 @@
     (property "Datasheet" "" (at 177.8 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95a7a3e8-b188-49d2-8cfb-cf10458e7952))
-    (pin "2" (uuid 123fc6d9-72fd-401b-9d0a-d0b4e5f12d27))
+    (pin "1" (uuid 150db6d5-c6e2-49c8-849f-4ed5924c6939))
+    (pin "2" (uuid 4c9a0f5c-e2f4-40ef-a422-9d2912a59821))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2609,8 +2609,8 @@
     (property "Datasheet" "" (at 187.96 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 0f0adeda-fe40-4279-ad85-82758d61959c))
-    (pin "2" (uuid 3057baed-76d7-4e8f-88a6-3253eae13878))
+    (pin "1" (uuid 332a9d0f-2595-41a0-8941-5b16979755a7))
+    (pin "2" (uuid 404ca4d2-2085-43d8-ae61-71dc6b68545b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2635,8 +2635,8 @@
     (property "Datasheet" "" (at 195.58 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a1e1d1bd-09a9-4f2c-ba54-d062afacdfd9))
-    (pin "2" (uuid 2a88bb5e-dd37-4234-aee4-b63efde27eba))
+    (pin "1" (uuid 2fc85e80-b96a-4faa-9a45-6ea06754443b))
+    (pin "2" (uuid 307d87a5-3d97-42fb-bb60-ed9cbaa09a06))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2661,8 +2661,8 @@
     (property "Datasheet" "" (at 205.74 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 43e52856-6a30-47ea-bf52-5c3c9fcdfc62))
-    (pin "2" (uuid 012b9d92-22ca-48d6-8bd2-9d9abd3ec6f0))
+    (pin "1" (uuid 276d77ea-4311-4bdf-aa45-e3a82695cb81))
+    (pin "2" (uuid 8f6db6df-d3fa-42d8-a433-9dd6bdba92a9))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2687,8 +2687,8 @@
     (property "Datasheet" "" (at 213.36 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54e8a228-c0c9-4dc2-8faf-f269e39cd6eb))
-    (pin "2" (uuid d7a421b1-24c4-4ddd-b3a5-a6108c468d31))
+    (pin "1" (uuid 58974068-f449-4b31-9808-db859d9ec625))
+    (pin "2" (uuid ebd59a43-4049-448a-8d70-71d0380092c0))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2713,8 +2713,8 @@
     (property "Datasheet" "" (at 223.52 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid d0fb25c4-0b5d-488b-9faa-3d504254a149))
-    (pin "2" (uuid 604188cf-3758-46d5-be29-2ab805b55f88))
+    (pin "1" (uuid ec729fe0-4409-4650-b7d9-2728e82b0e2b))
+    (pin "2" (uuid 9ff117ff-7ba8-42bf-a61d-efc4f4b5121f))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2739,8 +2739,8 @@
     (property "Datasheet" "" (at 241.3 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid ae21f9e4-1c14-4e00-bc8e-a715f0772810))
-    (pin "2" (uuid 0196aa4f-0228-497b-a6bf-e5a7faac27da))
+    (pin "1" (uuid 9c0ce515-b578-4149-b6a4-e0705bee5f4f))
+    (pin "2" (uuid 719c2332-5323-407b-8384-40a6d6250611))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2765,8 +2765,8 @@
     (property "Datasheet" "" (at 259.08 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 1225328f-81b7-4f14-b3e9-5d7201087b84))
-    (pin "2" (uuid efd95dc6-1a3d-4609-8adc-f1c6721a4634))
+    (pin "1" (uuid e1886746-1be2-4304-85a9-18d5ddd68ae0))
+    (pin "2" (uuid 34dc3910-0e85-4698-935b-caea2c488f09))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2791,8 +2791,8 @@
     (property "Datasheet" "" (at 231.14 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4e96d34-0d23-4857-b530-6041e0ca6d90))
-    (pin "2" (uuid 6c2b5ab6-250a-496f-8e11-8b400a4077a4))
+    (pin "1" (uuid d6274248-053f-49c1-8c50-dd26f8e403eb))
+    (pin "2" (uuid 760fd869-fae6-4e5e-89bd-3937a64ab557))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2817,8 +2817,8 @@
     (property "Datasheet" "" (at 248.92 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec7c3244-2992-47fa-b739-f352df0f93e0))
-    (pin "2" (uuid d6290b2e-e28a-45e5-80d5-de0a1ca191c7))
+    (pin "1" (uuid 7fc15c64-8e20-4ded-bf56-484d7e2c2e84))
+    (pin "2" (uuid dca56608-8469-40a3-9d73-b1b21ab13bf7))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2843,8 +2843,8 @@
     (property "Datasheet" "" (at 266.7 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26428609-1488-441b-aaa3-9b778ac1d5ea))
-    (pin "2" (uuid 305a6f28-2e04-4b9f-b58d-582bd7fad0ca))
+    (pin "1" (uuid c6eb586a-4797-4eab-8864-8145dc06009e))
+    (pin "2" (uuid bd16537f-0e90-466a-92a3-17e19f269b7b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2869,8 +2869,8 @@
     (property "Datasheet" "" (at 170.18 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid e81a1a9d-0d04-4efe-af6b-669a335d0d47))
-    (pin "2" (uuid ecbb5109-ff2d-43bc-9e18-17cfd5f214ec))
+    (pin "1" (uuid 2190ca5a-2f5f-469b-8123-58afe7103da2))
+    (pin "2" (uuid 0a6adbc0-87dd-4a93-ab78-57ce027eb154))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2895,8 +2895,8 @@
     (property "Datasheet" "" (at 177.8 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20e76b2d-3627-49d9-9a32-962441deb169))
-    (pin "2" (uuid 5f6176f3-1cac-483a-b6fa-16e78bc80696))
+    (pin "1" (uuid ff119b3d-60c8-40bd-9e1e-b5c57c93ae3b))
+    (pin "2" (uuid 1122eff9-aa00-4ca5-9235-923fe9a9d792))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2921,8 +2921,8 @@
     (property "Datasheet" "" (at 187.96 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 7c3fbc1e-b2a0-4cd8-8da1-76e2223037ff))
-    (pin "2" (uuid 03069c8e-f14f-45e3-9171-95e17a3c8d6c))
+    (pin "1" (uuid c3f3a785-529c-4098-bac5-a951525b5059))
+    (pin "2" (uuid baed01ef-8e25-4160-8551-81c78b3fd231))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2947,8 +2947,8 @@
     (property "Datasheet" "" (at 195.58 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ddd96e0-2d9d-42ee-936b-2b6075137a1a))
-    (pin "2" (uuid d818b4b5-d0f4-4ff0-8192-d563e53ded83))
+    (pin "1" (uuid e16f9735-3e9e-4f01-89ac-096150da4c78))
+    (pin "2" (uuid 2fb07c61-5b9f-41f1-8d63-dec68294b7a0))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2973,8 +2973,8 @@
     (property "Datasheet" "" (at 205.74 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 8f982e69-cb5c-44f2-87e8-98e3fd7e3dab))
-    (pin "2" (uuid 3ad8e06f-3d44-4aaf-9014-8b57f9218ac0))
+    (pin "1" (uuid d0520cd3-a7f0-43ed-a338-becf85086bb9))
+    (pin "2" (uuid 7980167b-b2e1-429c-a983-6333833bdd9e))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -2999,8 +2999,8 @@
     (property "Datasheet" "" (at 213.36 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4433c18e-7c02-4143-ba7c-c703760cbba2))
-    (pin "2" (uuid e15df518-7a0b-4bfa-8b15-ae9fc8f33e07))
+    (pin "1" (uuid b4616196-f5b8-48fd-8692-0ebfaf8b7867))
+    (pin "2" (uuid 7eea3c9a-a1e9-4693-899a-2058abe0ac87))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3025,8 +3025,8 @@
     (property "Datasheet" "" (at 223.52 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 2e6740cb-708b-43ae-966d-37fb66bbff46))
-    (pin "2" (uuid 94e81ea5-5c88-4ce6-9b29-1a6fb4142261))
+    (pin "1" (uuid 9f7432d3-860a-49ed-b8a3-30e9cb893d77))
+    (pin "2" (uuid 568aa698-9dd6-40ab-afc1-a40eaf589f7b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3051,8 +3051,8 @@
     (property "Datasheet" "" (at 241.3 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid a4d116ac-b4fd-4dd2-a906-0b53f347b20f))
-    (pin "2" (uuid ae58854c-2da8-44cd-a9a7-b9e6cff13e0a))
+    (pin "1" (uuid 3ecf10be-1583-462e-9529-ef825ce8f700))
+    (pin "2" (uuid c30c7fad-ea36-49da-8987-e0c911e70560))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3077,8 +3077,8 @@
     (property "Datasheet" "" (at 259.08 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 1dabaa3b-49d7-4e60-ba01-b87a39cc6c88))
-    (pin "2" (uuid 8d56077d-dc42-4a67-ab4f-869f26f7ad4f))
+    (pin "1" (uuid d1a79fc5-c3a4-4a4d-9c4e-1a0f0cf2352a))
+    (pin "2" (uuid 45d529ba-31f6-4241-b4ab-2ebe7e291667))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3103,8 +3103,8 @@
     (property "Datasheet" "" (at 231.14 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 55a748dc-df79-401d-ac0e-c1f66757bf4d))
-    (pin "2" (uuid e5605a8b-fa5c-40c9-916a-812361144927))
+    (pin "1" (uuid 77524f8a-37e9-44a5-aec1-470c742058f7))
+    (pin "2" (uuid ef2864af-546c-4540-a047-72ddce44fded))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3129,8 +3129,8 @@
     (property "Datasheet" "" (at 248.92 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d98e46bf-ac8d-4d83-ac1f-765c1dcc9235))
-    (pin "2" (uuid 62cc06d0-bf5a-4e06-835d-0db8ae71d9d6))
+    (pin "1" (uuid cf31097d-84cc-4213-bd21-00dd337159b2))
+    (pin "2" (uuid 81ef1a3f-aa47-4e41-ad78-910e74d3cd83))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3155,8 +3155,8 @@
     (property "Datasheet" "" (at 266.7 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08c67e17-cbda-4536-8aa5-6d7632ab4de6))
-    (pin "2" (uuid 94baf135-93c1-4abc-b82f-4141335cc9d1))
+    (pin "1" (uuid 9fd2217f-7e7c-402b-a928-cae13fe896b8))
+    (pin "2" (uuid 1d052c40-a932-40a8-bcf0-9588d0ab8a57))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3181,8 +3181,8 @@
     (property "Datasheet" "" (at 170.18 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 35e34b77-9be1-444b-ae02-3baa6a62bf13))
-    (pin "2" (uuid 95a0573c-a33c-437c-93c0-a3c4509560ea))
+    (pin "1" (uuid 1221d299-75d1-4218-8442-021f5f8a057f))
+    (pin "2" (uuid 8d4db46a-f11a-49ad-9e64-c00d9008c837))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3207,8 +3207,8 @@
     (property "Datasheet" "" (at 177.8 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b431881a-b315-4f8c-9a3a-a16644dc8dd9))
-    (pin "2" (uuid beb33254-b776-4d7c-ad28-b0466de92960))
+    (pin "1" (uuid d4e7ff15-994f-4923-93d3-3f739f136c92))
+    (pin "2" (uuid c4d3fbda-9a85-41a6-ba3b-c713b4e8e5c9))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3233,8 +3233,8 @@
     (property "Datasheet" "" (at 241.3 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 658c394c-4838-4596-9979-d46a409131c5))
-    (pin "2" (uuid ac4ad6bb-9df7-4f0b-bd03-ceb0b955e583))
+    (pin "1" (uuid be8cd53a-c837-4425-8ad1-f02f82e1443c))
+    (pin "2" (uuid 6abcb0e9-3ae9-463a-9ed5-11a3100d3a62))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3259,8 +3259,8 @@
     (property "Datasheet" "" (at 248.92 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0de028d1-4216-40df-8737-557cbb23ec14))
-    (pin "2" (uuid 879d1c99-d99c-4a4c-b19b-bf0fa7441390))
+    (pin "1" (uuid 443fd049-4477-4b61-a2d6-563c4dedaa2d))
+    (pin "2" (uuid 0ffb6638-bf21-47f9-b77e-059df3d2d3c6))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3285,8 +3285,8 @@
     (property "Datasheet" "" (at 259.08 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid a30116d1-2ce3-4604-baa9-96ac06e867f1))
-    (pin "2" (uuid 64a7dbf1-c500-4197-9049-5f760ee2b2a6))
+    (pin "1" (uuid a60a8fcb-c80f-4061-ab6b-a9fa3e91d5c8))
+    (pin "2" (uuid c047264b-b41a-4385-a6e4-17484514f005))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3311,8 +3311,8 @@
     (property "Datasheet" "" (at 266.7 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6530a44d-ea98-4b1b-8cd3-ae4a8fdd19bd))
-    (pin "2" (uuid 86fce4ad-0e93-4aa5-8d6d-de40593a85c4))
+    (pin "1" (uuid 15021066-ed6e-4e16-a82d-6772b2e5ae0d))
+    (pin "2" (uuid 6c2a72d7-6ee2-4636-94b4-9d91fb098373))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3337,8 +3337,8 @@
     (property "Datasheet" "" (at 223.52 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 9e27f571-1a6f-4f9f-b3f7-4fa7cb94e834))
-    (pin "2" (uuid f2f8926e-486c-4077-93bd-c864b72ce42d))
+    (pin "1" (uuid 30dbf36d-e15e-4b84-bfc8-0544f519cf1f))
+    (pin "2" (uuid 5dd9dc3e-200c-40b9-9b61-ab3d12651eb6))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3363,8 +3363,8 @@
     (property "Datasheet" "" (at 231.14 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 245e3221-e634-463a-b551-5182c05884d8))
-    (pin "2" (uuid d9cfa211-11fb-4806-a739-031ea7b0cacf))
+    (pin "1" (uuid 0d5d5d86-dc6a-4437-80ff-e47dc71c6567))
+    (pin "2" (uuid 570365f4-22df-4b80-b345-347e2c1e04a8))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3389,7 +3389,7 @@
     (property "Datasheet" "" (at 151.13 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49c59d57-f12c-4171-aaf5-c57f58429e06))
+    (pin "1" (uuid f0c61f86-95e0-44f5-abac-1b4337154c11))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3414,7 +3414,7 @@
     (property "Datasheet" "" (at 105.41 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 30f8d597-d5cc-42cf-8fb7-0f924c41891c))
+    (pin "1" (uuid 752a8670-c678-45ec-a509-b25bdb1aa4dc))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3439,8 +3439,8 @@
     (property "Datasheet" "" (at 115.824 170.815 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid f4d1d9b0-befd-406e-ad63-ba59f70943a6))
-    (pin "2" (uuid 18887a16-f9ff-4ca5-8b83-3a6befb9f4c0))
+    (pin "1" (uuid 2e9a89f6-f586-4659-bef2-e66b31987d20))
+    (pin "2" (uuid e52df339-54c5-44a6-b213-986615c0d3e7))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3465,7 +3465,7 @@
     (property "Datasheet" "" (at 123.444 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b74fb49-edfc-4e1c-905a-51551ed2e9aa))
+    (pin "1" (uuid 93537b8a-7778-4b93-8fd5-b6422f47acba))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3490,7 +3490,7 @@
     (property "Datasheet" "" (at 151.13 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3f6d520-9d26-4b48-bea9-bc891557431b))
+    (pin "1" (uuid b6d038dd-18f3-4c09-9dd6-2b691e3e0fe3))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3515,7 +3515,7 @@
     (property "Datasheet" "" (at 152.019 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5509603e-8e74-4bf6-a430-e0f069bc7cc5))
+    (pin "1" (uuid 3439d474-2d08-4fe5-9f4d-ecab9086513d))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3540,7 +3540,7 @@
     (property "Datasheet" "" (at 152.019 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc3479a9-e31f-4d20-adb4-86763589406f))
+    (pin "1" (uuid 7cf142b0-4780-45e9-92c6-0abae8997b75))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3565,7 +3565,7 @@
     (property "Datasheet" "" (at 142.494 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 04136ac9-2ae7-44c3-bc91-14dc81d71b99))
+    (pin "1" (uuid 7eede7e3-59ee-40e8-a4ec-e4e1d78179a7))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3590,7 +3590,7 @@
     (property "Datasheet" "" (at 142.494 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 56fb55a1-adfc-413b-8910-b5fe7fde4deb))
+    (pin "1" (uuid 62d4ed29-09bc-44f5-be82-2ff672532315))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3615,8 +3615,8 @@
     (property "Datasheet" "" (at 81.28 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c9c73c0-2b8e-4dd1-b9dc-cb377a8e4f58))
-    (pin "2" (uuid 114129bd-9aa7-467d-8fbe-220a4d291dec))
+    (pin "1" (uuid 61934433-041f-4af5-be3a-42350fbbab09))
+    (pin "2" (uuid 720cecdc-d351-4ad5-8796-536e5adaba62))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3641,8 +3641,8 @@
     (property "Datasheet" "" (at 205.74 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 763bc9bb-6d8d-40ee-90e0-dd12a7985ad1))
-    (pin "2" (uuid fe613e85-4565-448f-9154-7f2e9a66c211))
+    (pin "1" (uuid 2e7453a1-61cf-4cec-a479-e2e40d79481a))
+    (pin "2" (uuid 68c9d130-0a53-46c9-83a2-88efff3ad6ce))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3667,8 +3667,8 @@
     (property "Datasheet" "" (at 109.22 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 898d638b-0226-4b44-a2c8-a997e347c1b0))
-    (pin "2" (uuid f1a8b5d1-b9ef-48e1-87d0-a6e173b8e72d))
+    (pin "1" (uuid baedb0f8-3237-48dd-bec7-fe48476a7ec3))
+    (pin "2" (uuid c5c950a3-ecc2-4ee8-83f1-c8dcb9de6ed4))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3693,8 +3693,8 @@
     (property "Datasheet" "" (at 88.9 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0a09816-120c-461c-a135-048dcb570d53))
-    (pin "2" (uuid 982cfd0b-c73e-47c5-99ea-9510897a09a9))
+    (pin "1" (uuid f7dd759b-04d0-4f1d-a161-eab59bd63533))
+    (pin "2" (uuid 6c57800d-5f06-4c6c-96ba-85912a4ee9b1))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3719,7 +3719,7 @@
     (property "Datasheet" "" (at 143.51 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f2eb6b3-3d45-4452-a127-fd49b3b4030a))
+    (pin "1" (uuid db58cc55-e071-4bcc-a0c9-e43e7e67c2c0))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3744,8 +3744,8 @@
     (property "Datasheet" "" (at 55.88 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 19cfa415-642a-4799-9bd1-aaa312f7b9a3))
-    (pin "2" (uuid 4d9fd3b2-2230-497f-b96f-609fffb6a2fe))
+    (pin "1" (uuid 66272db0-9953-4943-8661-c2ef2fccba0d))
+    (pin "2" (uuid 122749b2-4fd1-41e6-a11b-b1345f28f9a5))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3770,8 +3770,8 @@
     (property "Datasheet" "" (at 99.06 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8f804fb6-bcc5-4e43-9d54-a2d087d52b89))
-    (pin "2" (uuid 0292820b-4862-44eb-9673-dcc2d9af129e))
+    (pin "1" (uuid fd4e84a8-a34d-4e2b-84f6-ee0e9c52329c))
+    (pin "2" (uuid dd5c38b9-82c4-491f-879c-89770d1286b1))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3796,8 +3796,8 @@
     (property "Datasheet" "" (at 81.28 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6225f23b-8c30-4bfb-8ae2-3d7d67850ab3))
-    (pin "2" (uuid 02f3b0db-a29d-4dcb-9e82-7388fea48e99))
+    (pin "1" (uuid 0f903656-db1e-45f8-84a7-d5343cfa592f))
+    (pin "2" (uuid 23d23d13-0307-492e-beef-824a2d403a9e))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3822,8 +3822,8 @@
     (property "Datasheet" "" (at 116.84 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 1b765784-4acf-4c2e-9b26-91378aa54bb9))
-    (pin "2" (uuid 08a3cd62-0e3e-4fd8-ac3e-b0b083a3650d))
+    (pin "1" (uuid 48842f0c-bf26-409d-a108-a9e5cf601681))
+    (pin "2" (uuid 48d99d95-4a06-4cee-b099-01c1ce17b40c))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3848,8 +3848,8 @@
     (property "Datasheet" "" (at 73.66 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid a687575a-211e-47e0-9e28-0f2cf5b7209f))
-    (pin "2" (uuid 8c6e8233-6a34-43f9-9731-20d023e4d719))
+    (pin "1" (uuid 20bb6c34-d435-4e0b-b35d-b07956e9745b))
+    (pin "2" (uuid 2a6eec15-f509-4abf-8c2d-25597f65dd9b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3874,8 +3874,8 @@
     (property "Datasheet" "" (at 106.68 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3599a6c7-b4af-48be-939a-305ff5047beb))
-    (pin "2" (uuid 495790a0-6780-450f-9cab-ce00b2ddc27b))
+    (pin "1" (uuid 60e2c205-a994-4852-adca-dfd9c6d51a71))
+    (pin "2" (uuid 24da8114-cfaa-48f2-8c20-3b97272d5432))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3900,8 +3900,8 @@
     (property "Datasheet" "" (at 81.28 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 326c94f4-b80e-4962-8a95-ae4b2c581239))
-    (pin "2" (uuid f066ce59-0820-4cf8-a3f7-dffd80927630))
+    (pin "1" (uuid 5b7ab201-c732-4955-970b-1b9c22b78f3c))
+    (pin "2" (uuid 7f9fb5bb-7ea7-480d-8618-972aead34a10))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3926,8 +3926,8 @@
     (property "Datasheet" "" (at 63.5 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3def741-4f05-452d-9911-d796685998ef))
-    (pin "2" (uuid 2a403544-734d-49c7-a1cf-848e9df6d005))
+    (pin "1" (uuid e638c970-8feb-4299-83f9-c88e0b16ca40))
+    (pin "2" (uuid a3cc4013-eeb6-430b-a92a-eea9e2357217))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3952,8 +3952,8 @@
     (property "Datasheet" "" (at 99.06 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9529a071-ab57-4de5-9b3d-589e3fb0daf3))
-    (pin "2" (uuid dcd76886-c132-4743-ac9a-23f389a06fa0))
+    (pin "1" (uuid 865ae0c5-eaae-4df0-9130-b7f65b64c7cd))
+    (pin "2" (uuid 05cd15cd-de0c-4591-a7b4-3b893ceab06f))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -3978,8 +3978,8 @@
     (property "Datasheet" "" (at 116.84 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15f69f95-0c0e-4deb-b635-75fcb5e4bc31))
-    (pin "2" (uuid 26db0dee-f38c-4201-a70f-2a9388b88a5e))
+    (pin "1" (uuid 89488c1d-4f2e-4580-9cb7-ca42eac558bd))
+    (pin "2" (uuid 4596ed6f-bc79-42f7-839f-67f269842c85))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4004,9 +4004,9 @@
     (property "Datasheet" "~" (at 187.96 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a92f2442-9e73-40be-a4cd-61ee56229820))
-    (pin "2" (uuid 19b13c02-83c7-41dc-b969-936d7ca69bd5))
-    (pin "3" (uuid 829eb22c-a3ae-4856-8041-85bc863fb728))
+    (pin "1" (uuid 812c44bf-4e38-47a6-ad9a-ccffe83c5976))
+    (pin "2" (uuid c959609e-33a9-44b3-9679-191daa7aa4e7))
+    (pin "3" (uuid bd1b2214-96a2-4859-991a-d57ddcf2247b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4031,8 +4031,8 @@
     (property "Datasheet" "" (at 99.06 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc4a7939-f056-43bb-913c-3ed84bbd4ca7))
-    (pin "2" (uuid f7c3a2d6-172a-4406-8831-944b213f1317))
+    (pin "1" (uuid 0b8f3612-6320-42d9-83be-69fa8285624c))
+    (pin "2" (uuid a874c280-70d0-47a4-8811-db58288efaad))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4057,8 +4057,8 @@
     (property "Datasheet" "" (at 127 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 3766815b-8cf4-45ae-ba20-977d13d4f1d1))
-    (pin "2" (uuid 3f4a80e0-cf86-4ad9-b289-19bbe1330ad3))
+    (pin "1" (uuid c78c8aee-66e5-448d-a23a-28640a175f84))
+    (pin "2" (uuid e722ef57-0279-48d2-8fbf-4edec7332153))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4083,8 +4083,8 @@
     (property "Datasheet" "" (at 124.46 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid adaebedd-6581-4265-a15c-271947c07f57))
-    (pin "2" (uuid 798c0739-adf9-4305-98ff-39425af5b012))
+    (pin "1" (uuid 326e78c9-d877-4ade-8bf2-5671e11f9d17))
+    (pin "2" (uuid 91c216d1-e00f-4d27-adbb-8d0834aff15f))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4109,8 +4109,8 @@
     (property "Datasheet" "" (at 116.84 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 630eb09a-9051-4537-bd10-b063d896b37e))
-    (pin "2" (uuid d6dc8cf3-6d62-42f4-81c0-51c64500e2f2))
+    (pin "1" (uuid bd907dba-d4c8-4e4f-9957-dbe9b199e02c))
+    (pin "2" (uuid 99f19fcf-1b00-4cf7-9e42-818d30111d65))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4135,8 +4135,8 @@
     (property "Datasheet" "" (at 109.22 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid c87d5a47-9db1-49ed-963c-2bcf7a7f1517))
-    (pin "2" (uuid e1b815ae-0df6-4cec-9852-d4b190981c57))
+    (pin "1" (uuid a36fefe7-4c27-4ed7-bc0b-9c4472557959))
+    (pin "2" (uuid b0f8fb69-8c1f-40b5-acde-0baee6d3d2d6))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4161,11 +4161,11 @@
     (property "Datasheet" "~" (at 157.48 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid d5a08172-b99f-47a0-818e-40dac8ef6d4c))
-    (pin "B" (uuid d0984283-f0bd-4a2a-b5df-f7ea6c0532f8))
-    (pin "C" (uuid a7279879-e0cd-479e-a410-c06fbbcd1ed4))
-    (pin "S1" (uuid c39f59d8-d07f-4da5-b324-4c1a035876c5))
-    (pin "S2" (uuid 8af6b46a-5633-4049-8461-3aa391825147))
+    (pin "A" (uuid 0f22522a-04c2-4592-b824-4ce12c82bab6))
+    (pin "B" (uuid 91b2a51b-0eb7-4076-8585-78ae1b40d545))
+    (pin "C" (uuid 4834c1de-9ac9-4ae5-bd79-4be3d10ec160))
+    (pin "S1" (uuid 2a693afc-1b78-4d30-abc3-ca05131d5536))
+    (pin "S2" (uuid a8202e87-2a6d-46f5-a5a7-9667ba9eb2fa))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4190,8 +4190,8 @@
     (property "Datasheet" "" (at 77.47 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 4b73fa14-a47c-40b0-9260-c29d6db0f8d3))
-    (pin "2" (uuid f35e3fbb-8215-48aa-a89b-89e110ac8c3a))
+    (pin "1" (uuid 566986a9-003f-4bf9-8623-1351bbfdbd25))
+    (pin "2" (uuid d2b1b472-8e8a-426e-90d3-056f8db49750))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4216,8 +4216,8 @@
     (property "Datasheet" "" (at 45.72 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 937c3c22-dd50-46d1-a837-9019937938cc))
-    (pin "2" (uuid f1375682-83c6-4c04-ab8e-7a2e8934531c))
+    (pin "1" (uuid 33331804-11c3-4f0a-afff-6ec3544d5084))
+    (pin "2" (uuid 2a854a11-f561-4094-8cba-db56d4deae28))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4242,9 +4242,9 @@
     (property "Datasheet" "~" (at 148.59 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 29643cfc-f0b8-466a-bcec-683cbfbdadc8))
-    (pin "2" (uuid 44e3bb37-a0b0-42cf-b4ee-90b35f9b0cd6))
-    (pin "3" (uuid 8e56aad5-0546-4aee-8999-692aa016fdf9))
+    (pin "1" (uuid 6c8ce067-06d3-4bd7-b1f9-4d19624ad54f))
+    (pin "2" (uuid 72a230f0-c16c-4085-8889-2cd687a068f4))
+    (pin "3" (uuid b90052de-aa0b-4068-a769-df8c3a78d2b5))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4269,8 +4269,8 @@
     (property "Datasheet" "" (at 38.1 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 7ab5ddf8-815a-4c90-8183-ade787bd02c5))
-    (pin "2" (uuid 617793b2-3c1f-49ec-824d-dcebd61223df))
+    (pin "1" (uuid d22ac2b1-26a5-45d9-81fa-2a762afd42d1))
+    (pin "2" (uuid 865293c6-8e1f-4ae1-9e24-800413cc9d23))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4295,8 +4295,8 @@
     (property "Datasheet" "" (at 91.44 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 39cc6179-bb6e-432f-85ad-e7bcc0d72072))
-    (pin "2" (uuid 03b203c5-2bca-47ac-96fe-df08101396c2))
+    (pin "1" (uuid 41d8bc5c-3550-4ce2-8640-60b031fa98e2))
+    (pin "2" (uuid fe9fe44e-8499-4586-9b45-c61119c0d565))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4321,7 +4321,7 @@
     (property "Datasheet" "~" (at 143.51 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0ac3b7b2-1a92-4d56-b9ce-d86cc22a609a))
+    (pin "1" (uuid c3a27ae7-854d-4a4f-a1f4-4ecc444d6229))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4346,7 +4346,7 @@
     (property "Datasheet" "~" (at 182.88 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ea262d1-29ff-44c7-a3ab-2387027d55ff))
+    (pin "1" (uuid 0418e0b4-d75b-43dc-b865-ccecea00ff81))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4371,8 +4371,8 @@
     (property "Datasheet" "" (at 45.72 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f6534c01-d9fa-4144-ad6c-8ed82e1f4999))
-    (pin "2" (uuid 398a7f02-b57c-4a8d-9ca6-ea8eb3ecd03b))
+    (pin "1" (uuid a3ad901c-1612-4239-9174-1f0ec67b5c52))
+    (pin "2" (uuid a6d88be6-b1a9-40a9-bcbd-76bb21f8f7d9))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4397,7 +4397,7 @@
     (property "Datasheet" "" (at 101.6 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bfeacc7-8d1f-4f6d-b983-ac796d28184c))
+    (pin "1" (uuid 5c7837fa-f531-4fd5-8b74-5a239accfcab))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4422,8 +4422,8 @@
     (property "Datasheet" "" (at 73.66 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid ddbc4236-afe0-46c8-8051-1b8115faa97e))
-    (pin "2" (uuid b8352705-f78e-4982-a111-6a2efd2a6cd1))
+    (pin "1" (uuid 7c878432-0748-4ea7-98ce-949ee99ab6bb))
+    (pin "2" (uuid aae4c5f1-98ae-444f-a86b-5c134b49ff0b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4448,8 +4448,8 @@
     (property "Datasheet" "" (at 63.5 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d55be2d0-e263-4211-94dd-3172cee64e7c))
-    (pin "2" (uuid b8828527-1d2a-4a3b-b26a-75e6319ef549))
+    (pin "1" (uuid e83cba36-c0cf-4da1-b849-4488461f94eb))
+    (pin "2" (uuid fec006a5-65ea-4ce5-b835-b423cd5516af))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4474,8 +4474,8 @@
     (property "Datasheet" "" (at 142.24 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d926f13-3877-4816-a896-c431dc51ac77))
-    (pin "2" (uuid 49507e05-ce11-40e8-a0df-a532a805aab0))
+    (pin "1" (uuid b4fb1174-2e7b-4938-889a-bbf8266f3d58))
+    (pin "2" (uuid 6d6206b9-180a-481a-8b45-298b3d713878))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4500,7 +4500,7 @@
     (property "Datasheet" "" (at 85.09 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 382cf714-5e2f-411d-9499-50284e040870))
+    (pin "1" (uuid a7b97ccb-2169-454a-b303-b9fcda82f665))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4525,8 +4525,8 @@
     (property "Datasheet" "" (at 55.88 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 3125afe0-c01c-49c4-bb0b-c8377af3ce63))
-    (pin "2" (uuid c4b12ee8-0e9d-489a-870d-59ca27cd7c8b))
+    (pin "1" (uuid 704b46a8-9903-47c2-b762-e47e76d7269a))
+    (pin "2" (uuid 684533a5-72fd-4d40-a112-6b2b8ab57e6b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4551,8 +4551,8 @@
     (property "Datasheet" "" (at 116.84 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ccd3b88a-51b2-49bd-853a-869ac076beba))
-    (pin "2" (uuid 69c72f7d-8074-47a3-983a-e884b103006e))
+    (pin "1" (uuid 40094085-1a5c-4b9c-bd5c-a928b0ebd27e))
+    (pin "2" (uuid 03d6ff83-a4cc-46ec-a760-48a09a947096))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4577,8 +4577,8 @@
     (property "Datasheet" "" (at 73.66 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid eb5ea794-6c2c-4635-9b6e-b4b053879032))
-    (pin "2" (uuid a67d5d48-e8e1-4e90-ac67-16f2db90915f))
+    (pin "1" (uuid 632a4032-852a-4b10-a260-16492f00c353))
+    (pin "2" (uuid a1a38ad9-6915-4ab5-a175-80c63623535b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4603,8 +4603,8 @@
     (property "Datasheet" "" (at 165.1 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c8f3f59a-040c-49b6-a0d3-a1b886a13563))
-    (pin "2" (uuid 992131f5-1c6c-4bea-88a7-0d3b6e560c7a))
+    (pin "1" (uuid 2c68bd8d-b8f9-45ea-9763-1b915a92e2b5))
+    (pin "2" (uuid 0787ab5c-84cb-4fd1-983e-42d5edf9b538))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4629,11 +4629,11 @@
     (property "Datasheet" "~" (at 109.22 145.796 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid 7dcece0d-7f0a-49d4-ba07-a3ea884d6940))
-    (pin "B" (uuid 2010f6d4-c3f7-474a-b9bc-fb1282f7b77c))
-    (pin "C" (uuid c2b7b0da-8e51-4a2e-a519-f8d71d8a54e7))
-    (pin "S1" (uuid bf9948a6-cef8-434a-8d51-ff91d8ded2a5))
-    (pin "S2" (uuid b131ee5a-be0c-409e-906a-f61e44473399))
+    (pin "A" (uuid 289b59f4-f81c-4d29-95e8-a5eba221177a))
+    (pin "B" (uuid 7205fd8e-62f1-4b02-83d7-b0b4df2f7391))
+    (pin "C" (uuid 1ce0573b-6ee6-4f76-9cf6-f18217d24589))
+    (pin "S1" (uuid 235617f1-4b7c-4efb-bb93-485e334ba074))
+    (pin "S2" (uuid 68a02294-fce4-4d43-bde4-acf64f015832))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4658,7 +4658,7 @@
     (property "Datasheet" "~" (at 143.51 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32b62f0f-52e2-4c5a-904e-eee6740a2558))
+    (pin "1" (uuid d3252799-3385-467c-a529-b5edd79629e4))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4683,8 +4683,8 @@
     (property "Datasheet" "" (at 134.62 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid d220c5f5-f537-44f8-825e-3539dde5f4c5))
-    (pin "2" (uuid fb7405d1-41ac-493e-9cde-306603a01dc2))
+    (pin "1" (uuid efb25f63-cb92-42e9-9b0c-8fd6e29d18dc))
+    (pin "2" (uuid d2bd66c1-dca2-44bd-afc6-557870a52cf0))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4709,8 +4709,8 @@
     (property "Datasheet" "" (at 134.62 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f439cdf5-ff5c-4695-8691-05abc8a80316))
-    (pin "2" (uuid df1c5c0d-eafe-4077-8bfe-9fa8948cf068))
+    (pin "1" (uuid 6452f731-83a7-43d4-a498-904acef9ed67))
+    (pin "2" (uuid eac9aa19-a56f-4149-8f08-6f6313faed6b))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4735,8 +4735,8 @@
     (property "Datasheet" "" (at 81.28 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 68c17d5e-103d-4fa1-91c0-76ed5b741d89))
-    (pin "2" (uuid c20a1dc4-d193-460b-ab4b-93d342ce4723))
+    (pin "1" (uuid 1e8c97d7-7456-4bab-8903-b49c854baf5e))
+    (pin "2" (uuid 2aa79f8b-56d8-45cb-92a4-7ed17f836fdf))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4761,8 +4761,8 @@
     (property "Datasheet" "" (at 91.44 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 8a961f99-b38d-4c35-a51c-3f51889a565b))
-    (pin "2" (uuid 9a7542da-8f8f-4114-9e35-e4ed32c42ab4))
+    (pin "1" (uuid 3a3d5262-b784-4947-aecb-e8ee6fed4e3e))
+    (pin "2" (uuid f3130001-4452-4940-89aa-121acc1079a1))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4787,7 +4787,7 @@
     (property "Datasheet" "~" (at 182.88 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f0ebe8e-caa4-4669-8933-932adc2249ff))
+    (pin "1" (uuid 67aaa06e-47ec-4931-9a97-cea2f794f29c))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4812,8 +4812,8 @@
     (property "Datasheet" "" (at 91.44 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid d9729bdd-74eb-419f-9d2e-5fa5cfdbde42))
-    (pin "2" (uuid d7737c1d-6234-48a0-8216-3f434806c147))
+    (pin "1" (uuid 1a88d300-1bee-46fc-b7bf-cdae5f0aa21d))
+    (pin "2" (uuid 52df11e4-5335-4920-ac29-1ff1b0ff0776))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4838,8 +4838,8 @@
     (property "Datasheet" "" (at 63.5 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid baf6a349-e826-4468-8379-c06b8e79db85))
-    (pin "2" (uuid fff0b9f4-de2b-407b-b49b-dafe4a6ee863))
+    (pin "1" (uuid 31c39efa-ffa1-4fa2-9967-64aa2959adcd))
+    (pin "2" (uuid 0a26b484-ab6d-48ba-8a38-639ef7bdb8a2))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4864,8 +4864,8 @@
     (property "Datasheet" "" (at 55.88 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 3125ef9c-3b76-4a1c-817d-a5e7f81dfe9b))
-    (pin "2" (uuid 9d02da91-a8ec-40ca-97e4-28018cdf6148))
+    (pin "1" (uuid 6a6adba1-8f88-427a-9e76-b5e2fe2408da))
+    (pin "2" (uuid c766c428-2c39-4129-b813-9d738e4e3b97))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4890,8 +4890,8 @@
     (property "Datasheet" "" (at 213.36 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d16c6dd-5b58-44e8-a7fc-22d8dbaf0f9b))
-    (pin "2" (uuid 1f92bb7c-6b9b-416b-861f-1ab6e6509681))
+    (pin "1" (uuid 8a4e5bf5-0ec2-4b13-93e3-ef84a2e7af50))
+    (pin "2" (uuid d3ac57c5-28bd-4469-a5bc-3f73975f6b49))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4916,7 +4916,7 @@
     (property "Datasheet" "" (at 149.86 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ed9a116-7bae-464d-81b6-4e83567b6bd7))
+    (pin "1" (uuid 41c25b4d-684a-4c4e-85f9-550f67366c13))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4941,7 +4941,7 @@
     (property "Datasheet" "" (at 182.88 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 320f3cfe-ac48-4de6-b21b-f5f4dee748aa))
+    (pin "1" (uuid 463582da-6cc3-4788-bdbe-c481b5443a7e))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4966,8 +4966,8 @@
     (property "Datasheet" "" (at 116.84 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dda1edba-f9ee-49c6-bb60-a66be616bf2b))
-    (pin "2" (uuid 0e8ab561-c120-4f3b-b36a-dde9ca346a8b))
+    (pin "1" (uuid 0182b281-96dc-48f2-a111-d00e07d029bf))
+    (pin "2" (uuid 1156e4fd-c962-42a0-8d3c-84d1f271a725))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -4992,8 +4992,8 @@
     (property "Datasheet" "" (at 134.62 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6724c68e-372d-4bf3-81fe-533db21ae718))
-    (pin "2" (uuid f558e3a0-405e-4e28-9c4a-b7ca011204db))
+    (pin "1" (uuid 87009bba-cdf2-452d-b378-5a7d5e4b40e0))
+    (pin "2" (uuid bbe1ab9e-1777-471d-8c4b-6a136d5192f6))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -5018,8 +5018,8 @@
     (property "Datasheet" "" (at 127 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 35d275fe-4404-47d3-bcae-f0fd7b24e6c5))
-    (pin "2" (uuid e84eee04-0242-476d-9679-d3b07e4c903c))
+    (pin "1" (uuid ab1f7b53-5a6e-42c0-a8f4-c0928ca1f8a4))
+    (pin "2" (uuid 61abb15c-59a0-4d2b-826c-89944d5ac8ee))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -5044,8 +5044,8 @@
     (property "Datasheet" "" (at 109.22 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 1a07b0ff-f00f-4585-950b-579f1c96dec0))
-    (pin "2" (uuid c16ad154-42e0-48ea-b227-456d952a431d))
+    (pin "1" (uuid 49654967-4b32-4f12-840c-0a9cfb79fbc5))
+    (pin "2" (uuid b9eaef6c-6f38-4957-9e6c-20f3647ae9b0))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -5070,8 +5070,8 @@
     (property "Datasheet" "" (at 99.06 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 75715e55-5394-4eb6-a676-91bd7f5a86e1))
-    (pin "2" (uuid c82ef910-7e9e-4696-9bfd-a0c884d0dc2a))
+    (pin "1" (uuid a93c201c-8fb8-4e5b-998e-4854498e4527))
+    (pin "2" (uuid 8b9f2d4e-1f83-4769-b895-ecd3fe7cd9fa))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -5096,8 +5096,8 @@
     (property "Datasheet" "" (at 134.62 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94619944-f6e3-4a93-bfc5-f037e6bbec2a))
-    (pin "2" (uuid 03d8ea38-173f-48b3-908e-c8c8cd48655d))
+    (pin "1" (uuid 86430a43-6986-4515-bc26-dbe4f754cb51))
+    (pin "2" (uuid 59eccf47-bb21-4bd4-bae8-bdfa8835e9c2))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -5122,8 +5122,8 @@
     (property "Datasheet" "" (at 127 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 8a435c50-d008-4fe9-9d92-9ce51f86c0dc))
-    (pin "2" (uuid c688a3d0-22e1-4f8e-96f1-f2fc5ae65a59))
+    (pin "1" (uuid 742e33ae-17c1-4a39-b986-e1ecef5fadd3))
+    (pin "2" (uuid 2408743d-bb87-440f-bc90-34fa31b01225))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
@@ -5148,8 +5148,8 @@
     (property "Datasheet" "" (at 38.1 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 2a42d660-0922-4242-9799-dfab601f9f4c))
-    (pin "2" (uuid 78725243-524c-4258-9f3d-3c2e9b350222))
+    (pin "1" (uuid 64c0d628-3406-4471-8da7-5ac079276886))
+    (pin "2" (uuid a7719105-aa30-4309-aa3c-af76f45e77b2))
     (instances
       (project "corne-ice"
         (path "/393dbe91-5274-4e94-856e-0610bd5770cb"
